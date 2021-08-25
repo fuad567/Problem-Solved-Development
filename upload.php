@@ -1,4 +1,6 @@
 <?php
+// PHP Upload File sederhana dengan otomatis pembuatan folder baru (jika belum tersedia), pembatasan ukuran file dan ektensi file.
+
 $allowedExts = array("doc", "docx", "jpg", "jpeg", "png", "pdf");
 $extension = end(explode(".", $_FILES["upload"]["name"]));
 
